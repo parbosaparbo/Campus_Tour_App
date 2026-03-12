@@ -29,7 +29,7 @@ const AiBoxHome = () => {
           <TouchableOpacity
             style={styles.button}
             onPress={
-              () => navigation.navigate("mapPage")
+              () => navigation.navigate("")// map route to be added
               //  Alert.alert("clicked you")
             }
           >
