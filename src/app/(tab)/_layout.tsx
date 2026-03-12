@@ -14,33 +14,34 @@ const TabLayout = () => {
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
-          //backgroundColor: "#000000",
-          //borderTopColor:'#000000',
-          position: "absolute",
-          backgroundColor: "transparent",
-          borderTopWidth: 0,
-          height: 60,
-          marginHorizontal: 26,
-          marginBottom: 22,
-          borderRadius: 70,
+        //   //backgroundColor: "#000000",
+        //   //borderTopColor:'#000000',
+        //   position: "absolute",
+        //   backgroundColor: "transparent",
+        backgroundColor:"black",
+        //   borderTopWidth: 0,
+        //   height: 60,
+        //   marginHorizontal: 26,
+        //   marginBottom: 22,
+        //   borderRadius: 70,
 
-          shadowColor: "#000",
-          shadowOffset: { width: 0, height: 10 },
-          shadowOpacity: 0.25,
-          shadowRadius: 50,
+        //   shadowColor: "#000",
+        //   shadowOffset: { width: 0, height: 10 },
+        //   shadowOpacity: 0.25,
+        //   shadowRadius: 50,
 
-          elevation: 20,
-        },
+        //   elevation: 20,
+         },
 
-        tabBarBackground: () => (
-          <View style={styles.blurWrapper}>
-            <BlurView
-              intensity={60}
-              tint="dark"
-              style={StyleSheet.absoluteFill}
-            />
-          </View>
-        ),
+        // tabBarBackground: () => (
+        //   <View style={styles.blurWrapper}>
+        //     <BlurView
+        //       intensity={60}
+        //       tint="dark"
+        //       style={StyleSheet.absoluteFill}
+        //     />
+        //   </View>
+        // ),
       }}
     >
       <Tabs.Screen
